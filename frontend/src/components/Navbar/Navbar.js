@@ -1,23 +1,28 @@
 import React , { Component } from 'react';
-import { Link, withRouter } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
+import arrowUp from '../../assets/arrowup.png'
 import '../../css/Navbar.css'
 
 class Navbar extends Component {
   render() {
     return (
-      <nav className='nav box effect1'>
+      <nav className='nav'>
 
         <div className='nav_nameDiv'>
           <div>
-            <h2> <Link to='/'> Nielene </Link></h2>
+            <h2> <a href='#smallIntro'> Nielene </a></h2>
           </div>
         </div>
 
         <div className='nav_liListDiv'>
+          <div className='linkIcons'>
+            <a href='#smallIntro'> <img src={arrowUp} alt=''/> </a>
+          </div>
+
+
           <div>
-            <li style = {{listStyleType: 'circle'}}>
-              <a href='#aboutMe' className='now_active'
-              style={{background: '', color: 'white'}}> About Me </a>
+            <li>
+              <a href='#aboutMe'> About Me </a>
             </li>
           </div>
 

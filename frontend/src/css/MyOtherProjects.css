@@ -18,20 +18,45 @@
 .mappedJsonProjects {
   margin-bottom: 100px;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
 .eachProjectDiv {
-  background-color: #67630C;
-  height: fit-content;
-  width: fit-content;
+  background-color: #354F52;
+  padding: 30px;
+  margin: 10px;
+  width: 400px;
 }
 
 .linkIcons {
   display: flex;
   flex-direction: row;
-
+  justify-content: flex-end;
 }
 .linkIcons img {
   height: 30px;
+  padding-left: 10px;
+}
+
+.otherPro_title {
+  font-size: 25px;
+  font-weight: bold;
+  color: #84A98C;
+  padding-bottom: 15px;
+}
+
+.otherPro_description {
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+
+.languagesArray {
+  display: flex;
+}
+.eachLanguage p {
+  display: flex;
+  padding-right: 20px;
+  color: #84A98C;
+  font-weight: 500;
 }

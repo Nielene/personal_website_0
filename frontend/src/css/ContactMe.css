@@ -1,25 +1,11 @@
-.contactMeParagraphDiv  {
-  display: flex;
-  flex-direction: column;
-
-  /* object-fit: contain; */
 
 
-}
-
-.contactMeParagraphDiv p {
+.contactMeParagraphDiv {
   display: flex;
   align-self: center;
-  
-}
 
-.contactMeParagraph {
-  /* display: flex;
-  width: fit-content; */
-  display: flex;
-  width: 80%;
-  text-align: center;
-
-  /* justify-content: center; */
-
+  width: 75%;
+  background-color: #354F52;
+  border: 2px solid #52796F;
+  padding: 20px;
 }

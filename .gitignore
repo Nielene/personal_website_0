@@ -24,3 +24,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+MYREADME1.md/
+MYREADME1.md\
+./frontend/MYREADME.md
+./frontend/MYREADME1.md
+./frontend/MYREADME2.md

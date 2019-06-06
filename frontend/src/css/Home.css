@@ -1,21 +1,20 @@
 .homeDiv {
-  background-color: #484608;
+  background-color: #CAD2C5;
   color: white;
 
-  padding: 100px 50px 40px 60px;
+  padding: 0px 50px 40px 60px;
   margin: 15px 150px 60px 150px;
 
   border-radius: 5px;
-  /* border-style: inset; */
 
-  box-shadow: 16px 31px 47px 3px rgba(255,255,255,0.75);
+  /* box-shadow: 16px 31px 47px 3px rgba(255,255,255,0.75);
   -webkit-box-shadow: 16px 31px 47px 3px rgba(255,255,255,0.75);
-  -moz-box-shadow: 16px 31px 47px 3px rgba(255,255,255,0.75);
+  -moz-box-shadow: 16px 31px 47px 3px rgba(255,255,255,0.75); */
 }
 
 .homeComponent {
-  /* margin-top: 100px; */
-  /* height: 100vh; */
+  padding-top: 200px;
+
 }
 
 #smallIntro {
@@ -24,6 +23,6 @@
 #aboutMe {
   height: 90vh;
 }
-/* #myProjects {
-  height: 90vh;
-} */
+#contactMe {
+  padding-bottom: 20px;
+}

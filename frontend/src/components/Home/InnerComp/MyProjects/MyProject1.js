@@ -31,8 +31,8 @@ const MyProject1 = () => {
         </div>
 
         <div className='projectIcons'>
-          <img src={github_icon} alt=''/>
-          <a href='https://aqueous-falls-38921.herokuapp.com/' target='_blank' rel='noopener noreferrer'><img src={external_link_icon} alt=''/></a>
+          <a href='https://github.com/isaink/dashing/tree/nielene_deployTest' target='_blank' rel='noopener noreferrer' id='img_github'><img src={github_icon} alt=''/></a>
+          <a href='https://aqueous-falls-38921.herokuapp.com/' target='_blank' rel='noopener noreferrer' id='img_external_link'><img src={external_link_icon} alt=''/></a>
         </div>
 
       </div>

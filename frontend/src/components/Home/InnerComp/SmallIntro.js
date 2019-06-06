@@ -15,7 +15,7 @@ class SmallIntro extends Component {
           </div>
 
           <div className='career'>
-            <h1>I'm a web builder.</h1>
+            <h1>I'm a Full-Stack Web Developer.</h1>
           </div>
 
           <div className='shortTalk'>

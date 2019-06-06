@@ -8,7 +8,7 @@ class ContactMe extends Component {
 
         <div className='title_and_line'>
           <div className='compTitle'>
-            <h1>Contact Me</h1>
+            <h1>CONTACT ME</h1>
           </div>
 
           <div className='line'>
@@ -17,9 +17,9 @@ class ContactMe extends Component {
         </div>
 
         <div className='contactMeParagraphDiv'>
-          <p className='contactMeParagraph'>
-            I'm always interested in opportunities to expand on and use my skills. I do freelance and long-term projects. Feel free to email me at nielenethomas@pursuit.org and I'll try my best to get back to you!
-          </p>
+          <span>
+              I'm always interested in opportunities to expand on and use my skills. I do freelance and long-term projects. Feel free to email me at <b>nielenethomas@pursuit.org</b> and I'll try my best to get back to you!
+          </span>
         </div>
 
 

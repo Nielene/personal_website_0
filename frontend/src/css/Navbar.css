@@ -1,0 +1,83 @@
+.nav {
+  background-color: #67630C;
+  color: white;
+
+  /* position: fixed;
+  top: 0px;
+  width: 100%; */
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  padding: 0px;
+  margin: 20px 20px 30px 10px;
+  align-items: center;
+  padding-right: 10px;
+
+  border-radius: 5px;
+  /* border-style: outset; */
+
+  box-shadow: 14px 10px 37px 13px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 14px 10px 37px 13px rgba(0,0,0,0.75);
+  -moz-box-shadow: 14px 10px 37px 13px rgba(0,0,0,0.75);
+}
+
+.box {
+    /* width:70%;
+    height:200px;
+    background:#FFF; */
+    /* margin:40px auto; */
+}
+/*
+box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color];
+aka
+box-shadow: 1px 3px 5px #ccc;
+*/
+/* .effect1 {
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+       -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777;
+} */
+
+.nav_nameDiv {
+  width: 100px;
+  margin-left: 20px;
+}
+
+.nav_liListDiv {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  justify-content: space-around;
+  padding-left: 70px;
+}
+
+li {
+  /* list-style-type: none; */
+  list-style-type: circle;
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+a:active {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+a.now_active {
+  text-decoration: underline;
+  color: white;
+}
+a:hover:not(.now_active) {
+  text-decoration: underline;
+  color: white;
+}

@@ -1,0 +1,37 @@
+.title_and_line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.compTitle3 {
+}
+.line3 {
+  width: 70%;
+  margin-left: 20px;
+}
+.line3 hr {
+  height: 2px;
+  border-radius: 5px;
+}
+
+.mappedJsonProjects {
+  margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.eachProjectDiv {
+  background-color: #67630C;
+  height: fit-content;
+  width: fit-content;
+}
+
+.linkIcons {
+  display: flex;
+  flex-direction: row;
+
+}
+.linkIcons img {
+  height: 30px;
+}

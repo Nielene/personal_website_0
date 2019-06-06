@@ -1,0 +1,19 @@
+.greetingHi {
+  margin-bottom: 50px;
+  font-weight: 600;
+  font-stretch: expanded;
+}
+
+.name h1 {
+  font-size: 80px;
+}
+
+.career h1 {
+  font-size: 80px;
+  color: rgba(103,99,12,1);
+}
+
+.shortTalk {
+  width: 500px;
+  margin-top: 30px;
+}

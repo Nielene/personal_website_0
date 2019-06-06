@@ -1,0 +1,5 @@
+[
+  {"id": 1, "title": "Earworm Report", "className": "displayNow", "languages": ["Redux", "React", "JavaScript", "CSS"], "website": "", "github": "https://github.com/Nielene/Earworm-Report", "description": "A full-stack application where users can post, favorite, and comment on songs."},
+  {"id": 2, "title": "Music4urMood", "className": "displayNow", "languages": ["React", "JavaScript", "CSS"], "website": "", "github": "https://github.com/acabrera100/music4UrMood", "description": "A group project that plays you music to suit your mood."},
+  {"id": 3, "title": "Cost Splitter", "className": "displayAfter", "languages": ["HTML", "CSS"], "website": "", "github": "https://github.com/Nielene/costSplitter", "description": "This is one of my early projects. It gives you a quick way to split a bill fairly."}
+]

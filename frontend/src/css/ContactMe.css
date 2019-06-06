@@ -1,0 +1,25 @@
+.contactMeParagraphDiv  {
+  display: flex;
+  flex-direction: column;
+
+  /* object-fit: contain; */
+
+
+}
+
+.contactMeParagraphDiv p {
+  display: flex;
+  align-self: center;
+  
+}
+
+.contactMeParagraph {
+  /* display: flex;
+  width: fit-content; */
+  display: flex;
+  width: 80%;
+  text-align: center;
+
+  /* justify-content: center; */
+
+}

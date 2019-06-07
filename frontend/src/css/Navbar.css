@@ -14,17 +14,20 @@
   margin: 20px 20px 30px 10px;
   align-items: center;
   padding-right: 10px;
-
   border-radius: 5px;
-
 }
 
 .nav_nameDiv {
   width: 100px;
-  margin-left: 20px;
+  margin-left: 40px;
 }
-.nav_nameDiv h2 {
+.nav_nameDiv a {
   color: #CAD2C5;
+  text-decoration: none;
+}
+.nav_nameDiv a:hover {
+  color: #CAD2C5;
+  text-decoration: underline #CAD2C5 solid;
 }
 
 .nav_liListDiv {
@@ -32,37 +35,36 @@
   flex-direction: row;
   width: 40%;
   justify-content: space-around;
+  align-items: center;
 }
 
-li {
+.nav_liListDiv li {
   list-style-type: none;
 }
-
-a {
+.nav_liListDiv a {
   text-decoration: none;
-  color: white;
-
+  color: #84A98C;
+  font-weight: bold;
+  font-size: 17px;
+  height: 50px;
 }
 
- a:hover {  /* not all a:'s - affecting AboutMe.js*/
-  /* background-color: #2F3E46; */
-  /* padding: 10px; */
-  text-decoration-color: white;
+.arrowUpIcon img {
+  border-radius: 50%;
+  background-color: #84A98C;
+  padding: 5px;
+  height: 35px;
 }
-a:active {
-  text-decoration: underline;
-  text-decoration-color: white;
+.arrowUpIcon img:hover {
+  background-color: #CAD2C5;
 }
-a.now_active {
-  text-decoration: underline;
-  color: white;
-}
-a:hover:not(.now_active) {
-  text-decoration: underline;
-  color: white;
-}
+
 .nav_liListDiv a:visited {
   color: #84A98C;
   background-color: #2F3E46;
   padding: 10px;
+}
+ .nav_liListDiv a:hover {
+  color: #CAD2C5;
+  text-decoration: underline #CAD2C5 solid;
 }

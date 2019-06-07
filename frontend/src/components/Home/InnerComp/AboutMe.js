@@ -33,11 +33,14 @@ class AboutMe extends Component {
                 <li>JavaScript (ES6)</li>
                 <li>React</li>
                 <li>Redux</li>
+                <li>Node.js</li>
+                <li>SQL</li>
               </ul>
               <ul>
                 <li>HTML & CSS</li>
                 <li>Express</li>
-                <li>Postgres / PSequel</li>
+                <li>Postgres Database</li>
+                <li>Git</li>
               </ul>
             </div>
 

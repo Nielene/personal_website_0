@@ -1,6 +1,6 @@
 import React , { Component } from 'react';
 import { withRouter } from 'react-router-dom';
-import arrowUp from '../../assets/arrowup.png'
+import arrowUp from '../../assets/double_arrow_up.png'
 import '../../css/Navbar.css'
 
 class Navbar extends Component {
@@ -10,37 +10,37 @@ class Navbar extends Component {
 
         <div className='nav_nameDiv'>
           <div>
-            <h2> <a href='#smallIntro'> Nielene </a></h2>
+            <h2> <a href='#smallIntro'> NieleneThomas </a></h2>
           </div>
         </div>
 
         <div className='nav_liListDiv'>
-          <div className='linkIcons'>
+          <div className='arrowUpIcon'>
             <a href='#smallIntro'> <img src={arrowUp} alt=''/> </a>
           </div>
 
 
           <div>
             <li>
-              <a href='#aboutMe'> About Me </a>
+              <p><a href='#aboutMe'> About Me </a></p>
             </li>
           </div>
 
           <div>
             <li>
-              <a href='#myProjects'> Projects </a>
+              <p><a href='#myProjects'> Projects </a></p>
             </li>
           </div>
 
           <div>
             <li>
-              <a href='#contactMe'> Contact Me </a>
+              <p><a href='#contactMe'> Contact Me </a></p>
             </li>
           </div>
 
           <div>
             <li>
-              <a href='https://resume.creddle.io/resume/8agulr0be45' target='_blank' rel='noopener noreferrer'> Resume </a>
+              <p><a href='https://resume.creddle.io/resume/8agulr0be45' target='_blank' rel='noopener noreferrer'> Resume </a></p>
             </li>
           </div>
 

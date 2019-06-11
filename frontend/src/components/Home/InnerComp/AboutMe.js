@@ -37,9 +37,9 @@ class AboutMe extends Component {
                 <li>SQL</li>
               </ul>
               <ul>
-                <li>HTML & CSS</li>
+                <li>HTML5 & CSS3</li>
                 <li>Express</li>
-                <li>Postgres Database</li>
+                <li>PostgreSql Database</li>
                 <li>Git</li>
               </ul>
             </div>

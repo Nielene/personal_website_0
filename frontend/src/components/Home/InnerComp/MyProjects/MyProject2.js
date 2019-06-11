@@ -13,7 +13,10 @@ const MyProject2 = () => {
         </div>
 
         <div className='projectDescription2'>
-          <p>This is my version of the popular Reddit site! Login and xplore some posts, or add some! Make a comment! Follow a subreddit! </p>
+          <p>ReReddit is my version of the popular Reddit site!</p>
+          <p>It uses an express backend and redux frontend, along with basic React/JavaScript.</p>
+          <p>Login and explore some posts - or add some! Also, comment on a post, or delete your comment; subscribe to a subreddit. See your list of subscribed subreddits in a dropdown list. </p>
+          <p>See for yourself. Visit my webapp!</p>
         </div>
 
         <div className='projectLanguages2'>

@@ -28,3 +28,53 @@ box shadow:
 https://codepen.io/bchiang7/pen/EaLoPm
 and https://cssgenerator.org/box-shadow-css-generator.html
 https://brittanychiang.com/
+
+
+toggle:
+https://github.com/coreyladovsky/coreyladovsky.github.io/blob/githubLive/src/components/nav.jsx
+```js
+
+constructor(props) {
+    super(props);
+    this.showing = false;
+    this.handleSelection = this.handleSelection.bind(this);
+    this.toggleNav = this.toggleNav.bind(this);
+    this.location = this.location.bind(this);
+  }
+
+toggleNav() {
+    let navContainer = $(".nav-container");
+    if (this.showing) {
+      navContainer
+        .removeClass("slideInLeft")
+        .addClass("slideOutLeft");
+      setTimeout(() => {
+        navContainer.css("display", "none");
+      }, 500);
+    } else {
+      navContainer
+        .css("display", "grid")
+        .removeClass("slideOutLeft")
+        .addClass("slideInLeft");
+    }
+    this.showing = !this.showing;
+  }
+  ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//

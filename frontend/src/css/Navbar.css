@@ -4,14 +4,14 @@
 
   position: fixed;
   top: 0px;
-  width: 96%;
+  width: 100%;
 
   display: flex;
   flex-direction: row;
 
   justify-content: space-between;
   padding: 0px;
-  margin: 20px 20px 30px 10px;
+  margin: 0px;
   align-items: center;
   padding-right: 10px;
   border-radius: 5px;
@@ -24,22 +24,24 @@
 .nav_nameDiv a {
   color: #CAD2C5;
   text-decoration: none;
+  padding-right: 15px;
 }
 .nav_nameDiv a:hover {
-  color: #CAD2C5;
-  text-decoration: underline #CAD2C5 solid;
+  color: white;
+  /* text-decoration: underline #CAD2C5 solid; */
 }
 
 .nav_liListDiv {
   display: flex;
   flex-direction: row;
-  width: 40%;
-  justify-content: space-around;
+  margin-right: 30px;
   align-items: center;
 }
 
 .nav_liListDiv li {
   list-style-type: none;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .nav_liListDiv a {
   text-decoration: none;

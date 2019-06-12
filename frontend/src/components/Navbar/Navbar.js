@@ -1,6 +1,6 @@
 import React , { Component } from 'react';
 import { withRouter } from 'react-router-dom';
-import arrowUp from '../../assets/double_arrow_up.png'
+// import arrowUp from '../../assets/double_arrow_up.png'
 import '../../css/Navbar.css'
 
 class Navbar extends Component {
@@ -15,9 +15,11 @@ class Navbar extends Component {
         </div>
 
         <div className='nav_liListDiv'>
-          <div className='arrowUpIcon'>
-            <a href='#smallIntro'> <img src={arrowUp} alt=''/> </a>
-          </div>
+          {/*
+          // <div className='arrowUpIcon'>
+          //   <a href='#smallIntro'> <img src={arrowUp} alt=''/> </a>
+          // </div>
+          */}
 
 
           <div>

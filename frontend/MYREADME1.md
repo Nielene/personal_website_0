@@ -62,8 +62,16 @@ toggleNav() {
   ```
 
 
+ArrowUp appear on scroll:
+https://stackoverflow.com/questions/38114715/how-to-reveal-a-react-component-on-scroll
 
 
+mailto:
+https://stackoverflow.com/questions/34779642/dynamic-href-tag-react-in-jsx
+
+```js
+<a href={"mailto:" + this.state.email}><p>NieleneThomas@pursuit.org</p></a>
+```
 
 
 

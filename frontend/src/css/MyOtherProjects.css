@@ -16,7 +16,7 @@
 }
 
 .mappedJsonProjects {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -60,7 +60,7 @@ div.inputButtonDiv {
 }
 input.inputButton {
   background-color: #354F52;
-  color: #84A98C;
+  color: #CAD2C5;
   font-size: 16px;
   font-weight: bold;
   padding: 15px;
@@ -87,6 +87,7 @@ input.inputButton {
 .otherPro_description {
   padding-bottom: 10px;
   font-weight: 500;
+  color: white;
 }
 
 .languagesArray {
